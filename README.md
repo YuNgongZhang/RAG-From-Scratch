@@ -78,18 +78,24 @@ RAG_STUDY/
 
 ## 🧪 Quick Start
 
-### 1. Install dependencies
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd RAG_STUDY
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Add OpenAI key (if using OpenAI models)
+### 3. Add OpenAI key
 Create a file named `.env` in the root directory:
 ```ini
 OPENAI_API_KEY=your_api_key
 ```
 
-### 3. Edit and run `app.py`
+### 4. Edit and run `app.py`
 Simply edit the query in `app.py` and run it:
 
 ```bash
